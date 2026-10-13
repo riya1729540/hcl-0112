@@ -13,3 +13,5 @@ public class A {
 
     }
 }
+//create a an arrayList of  employee type and apply crud operations on employee objects .use itterator and list itterator to traverse the list .
+itterate rthe employees in ascending as well as descending order onn behalf of employee id
