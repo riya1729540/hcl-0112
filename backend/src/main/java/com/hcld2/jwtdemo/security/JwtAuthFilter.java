@@ -20,7 +20,8 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
     private final JwtService jwtService;
 
-    protected void doFilterInternal
+    protected void doFilterInternal   //once per request function :prevents backend being slow by checking the
+                                      // function once using JWT
             (HttpServletRequest request,
              HttpServletResponse response,
              FilterChain filterChain) throws ServletException, IOException {

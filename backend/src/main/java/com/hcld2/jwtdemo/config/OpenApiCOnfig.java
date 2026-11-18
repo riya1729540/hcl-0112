@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Configuration;
             )
     )
     @SecurityScheme(
-            name = "jwt-demo-api",
+            name = "jwt-demo-api",//added to the route which needs to be protected
             scheme = "bearer",
             type = SecuritySchemeType.HTTP,
             in = SecuritySchemeIn.HEADER,
