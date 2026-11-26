@@ -1,0 +1,8 @@
+# Deployement of SpringBoot App
+#folder Structure
+- /backend/Dockerfile
+- /backend/Dockerignore
+- /frontend/Dockerfile
+- /backend/Dockerignore
+
+ 
